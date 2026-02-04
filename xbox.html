@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description">
+    <title>xbox</title>
+    <link rel="shortcut icon" href="img/controle-fav.png" type="image/x-icon">
+    <!-- CSS da pasta bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Consoles
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">PlayStation</a></li>
+                                <li><a class="dropdown-item" href="#">Xbox</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Mídias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Fotos</a></li>
+                                <li><a class="dropdown-item" href="#">Videos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-secondary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="container" id="Home">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner-gears.jpg" class="d-block w-100" alt="jogo metal gears">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-lara.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <main class="container py-3" id="sobre">
+        <div class="col-md-6 col-lg-6 text-center">
+            <img src="img/xbox_x.jpg" class="img-fluid rounded-circle" alt="Foto de Perfil Vitória Cristina">
+                    <p>
+                        Xbox Series X é o console mais poderoso da Microsoft, projetado para jogos de última geração com
+                        resolução 4K real, até 120 FPS e tempo de carregamento muito rápido graças ao SSD interno. Ele
+                        usa uma CPU e GPU AMD personalizadas, tem 1 TB de armazenamento SSD expansível e é compatível
+                        com milhares de jogos de gerações anteriores. Além disso, oferece recursos como Quick Resume
+                        (voltar rapidamente aos jogos) e suporte a tecnologias como ray tracing para gráficos mais
+                        realistas
+                    </p>
+                </div>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
