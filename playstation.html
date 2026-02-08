@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description">
-    <title>Games</title>
+    <title>PlayStation</title>
     <link rel="shortcut icon" href="img/controle-fav.png" type="image/x-icon">
     <!-- CSS da pasta bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-success">
+        <nav class="navbar navbar-expand-lg bg-info">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.png" alt="">
@@ -61,19 +61,18 @@
                 </div>
             </div>
         </nav>
-
     </header>
     <main class="container" id="Home">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/banner-gears.jpg" class="d-block w-100" alt="jogo metal gears">
+                    <img src="img/banner_ps.jpg" class="d-block w-100" alt="jogo metal gears">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-play.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="img/banner-lara.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/banner1.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -86,52 +85,43 @@
             </button>
         </div>
     </main>
-    <section id="consoles" class="container">
-        <h1 class="text-center mb-5">Aqui você encontra os melhores Jogos</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <!-- projeto 1 -->
-            <div class="col">
-                <div class="card h-100 border-0 shadow-sm">
-                    <img src="img/ps5.jpg" class="card-img-top" alt="PS5">
-                    <div class="card-body">
-                        <h2 class="card-title">Playstation 5 </h2>
-                        <p class="card-text">PS5: console de última geração com gráficos em 4K e alto desempenho.</p>
-                    </div>
-                    <div class="text-center mt-3">
-                        <a class="btn btn-success" href="https://www.playstation.com/pt-br/" role="button">Saiba +</a>
-                    </div>
-                </div>
-            </div>
-            <!-- projeto 2 -->
-            <div class="col">
-                <div class="card h-100 border-0 shadow-sm">
-                    <img src="img/xbox-one.png" class="card-img-top" alt="xbox-one">
-                    <div class="card-body">
-                        <h2 class="card-title">Xbox One</h2>
-                        <p class="card-text">Xbox One: console com ótimo desempenho e ampla biblioteca de jogos.</p>
-                    </div>
-                    <div class="text-center mt-2">
-                        <a class="btn btn-success" href="https://www.xbox.com/pt-BR/" role="button">Saiba +</a>
-                    </div>
-                </div>
-            </div>
-            <!-- projeto 3 -->
-            <div class="col">
-                <div class="card h-100 border-0 shadow-sm">
-                    <img src="img/mario.jpg" class="card-img-top" alt="Hub de links de Vitória Cristina">
-                    <div class="card-body">
-                        <h2 class="card-title">Jogos</h2>
-                        <p class="card-text">Jogos: experiências interativas em diversos gêneros para todas as idades.
-                        </p>
-                    </div>
-                    <div class="text-center mt-3">
-                        <a class="btn btn-success" href="https://store.steampowered.com/?l=portuguese"
-                            role="button">Saiba +</a>
-                    </div>
-                </div>
-            </div>
+    <main class="container py-5" id="sobre">
+
+    <!-- PlayStation 5 -->
+    <div class="row align-items-center gy-4 mb-5">
+        <div class="col-12 col-md-6 order-md-2 text-center">
+            <img src="img/ps5.jpg" class="img-fluid rounded" alt="PlayStation 5">
         </div>
-    </section>
+        <div class="col-12 col-md-6 order-md-1">
+            <h1 class="text-info">PlayStation 5</h1>
+            <p>
+                O PS5 é a geração mais recente da Sony e se destaca pelo alto desempenho.
+                Ele oferece gráficos mais realistas, suporte à resolução 4K e tempos de
+                carregamento muito rápidos graças ao SSD. Além disso, o controle DualSense
+                traz recursos como vibração mais precisa e gatilhos adaptáveis, deixando
+                os jogos mais imersivos e envolventes.
+            </p>
+        </div>
+    </div>
+
+    <!-- PlayStation 4 -->
+    <div class="row align-items-center gy-4">
+        <div class="col-12 col-md-6 text-center">
+            <img src="img/play4.png" class="img-fluid rounded-circle" alt="PlayStation 4">
+        </div>
+        <div class="col-12 col-md-6">
+            <h1 class="text-info">PlayStation 4</h1>
+            <p>
+                O PS4 é da geração anterior, mas ainda é muito utilizado.
+                Ele roda a maioria dos jogos em Full HD, tem uma biblioteca enorme
+                de títulos consagrados e um desempenho estável. Mesmo sem as
+                tecnologias mais novas do PS5, continua sendo uma ótima opção
+                para quem busca qualidade e custo-benefício.
+            </p>
+        </div>
+    </div>
+
+</main>
 
     <section id="contato" class="container py-5">
         <div class="row g-4 align-items-start bg-secondary-subtle">
@@ -191,13 +181,15 @@
 
         </div>
     </section>
-    <footer class="container py-3 bg-success">
+    <footer class="container py-3 bg-info">
         <div class="row">
             <p class="text-center mb-0">
                 Curso Técnico Senac Tatuapé. Somente para fins educativos.
             </p>
         </div>
     </footer>
+
+
 
 
 
